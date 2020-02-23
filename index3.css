@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+#main-container {
+    width: 800px;
+    margin-left: calc(50% - 800px / 2);
+    margin-top: calc(5vh - 100px / 2);
+}
+
+header {
+    position: relative;
+    margin-left: calc(50% - 800px / 2);
+    margin-top: calc(5vh - 100px / 2);
+    height: 200px;
+}
+
+header div {
+    border: 1px solid white;
+}
+
+#box1 {
+    position: absolute;
+    width: calc(200px - 2px);
+    height: calc(150px - 2px);
+    left: 0px;
+    top: calc(50% - 150px / 2);
+}
+
+#box2 {
+    position: absolute;
+    width: calc(200px - 2px);
+    height: calc(150px - 2px);
+    right: 0px;
+    top: calc(50% - 150px / 2);
+}
+
+#box3 {
+    position: relative;
+    border: 1px solid white;
+    width: calc(100% - 2px);
+    height: calc(100px - 2px);
+    margin-top: calc(8% - 100px / 2);
+}
+
+#box-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-top: calc(8% - 100px / 2);
+}
+
+#box4 {
+    width: 350px;
+    height: 500px;
+    float: left;
+}
+
+#box4 div {
+    border: 1px solid white;
+    width: calc(300px - 2px);
+    height: calc(50px - 2px);
+    margin-left: calc(50% - 300px / 2);
+    margin-top: calc(10vh - 50px / 2);
+}
+
+#box5 {
+    border: 1px solid white;
+    width:  calc(100px - 2px);
+    height: calc(500px - 2px);
+    float: left;
+}
+
+#box5 div{
+    border: 1px solid white;
+    width: calc(50px - 2px);
+    height: calc(50px - 2px);
+    /* float: left; */
+    margin-left: calc(50% - 50px / 2);
+    margin-top: 250px;
+}
+
+#box6 {
+    width: 350px;
+    height: 500px;
+    float: left;
+}
+
+#box6 div { 
+    border: 1px solid white;
+    width: calc(300px - 2px);
+    height: calc(50px - 2px);
+    margin-left: calc(50% - 300px / 2);
+    margin-top: calc(10vh - 50px / 2);
+}

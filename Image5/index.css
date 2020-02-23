@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(56, 56, 56);
+}
+
+#main-container {
+    width: 1200px;
+    margin-left: calc(50% - 1200px / 2);
+    float: left;
+}
+
+#box-container1 {
+    width: 400px;
+    height: 900px;
+    float: left;
+}
+
+#box-container1 div {
+    border: 1px solid white;
+}
+
+#box1 {
+    width: calc(300px - 2px);
+    height: calc(300px - 2px);
+}
+
+#box2 {
+    width: calc(300px - 2px);
+    height: calc(100px - 2px);
+    margin-top: 25px;
+}
+
+#box3 {
+    width: calc(300px - 2px);
+    height: calc(450px - 2px);
+    margin-top: 25px;
+}
+
+#box-container2 {
+    width: 400px;
+    height: 900px;
+    float: left;
+}
+
+#box-container2 div {
+    border: 1px solid white;
+}
+
+#box4 {
+    width: calc(300px - 2px);
+    height: calc(150px - 2px);
+}
+
+#box5 {
+    width: calc(300px - 2px);
+    height: calc(550px - 2px);
+    margin-top: 25px;
+}
+
+#box6 {
+    width: calc(300px - 2px);
+    height: calc(150px - 2px);
+    margin-top: 25px;
+}
+
+#box-container3 {
+    width: 400px;
+    height: 900px;
+    float: left;
+}
+
+#box-container3 div {
+    border: 1px solid white;
+}
+
+#box7 {
+    width: calc(300px - 2px);
+    height: calc(450px - 2px);
+}
+
+#box8 {
+    width: calc(300px - 2px);
+    height: calc(300px - 2px);
+    margin-top: 25px;
+}
+
+#box9 {
+    width: calc(300px - 2px);
+    height: calc(100px - 2px);
+    margin-top: 25px;
+}

@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+#main-container {
+    width: 1000px;
+    min-height: 200px;
+    margin-left: calc(50% - 1000px / 2);
+    margin-top: calc(1vh - 100px / 2);
+}
+
+#main-container div {
+    border: 1px solid white;
+}
+
+header {
+    border: 1px solid white;
+    width: calc(600px - 2px);
+    min-height: calc(150px - 2px);
+    margin-left: calc(50% - 600px / 2);
+    margin-top: calc(20vh - 200px / 2);
+}
+
+#box-container1 {
+    width: calc(1000px - 2px);
+    min-height: calc(200px - 2px);
+    margin-top: calc(15% - 200px / 2);
+    position: relative;
+}
+
+#box1 {
+    position: absolute;
+    width: calc(200px - 2px);
+    height: calc(150px - 2px);
+    left: 40px;
+    top: 20px
+}
+
+#box2 {
+    position: absolute;
+    width: calc(200px - 2px);
+    height: calc(150px - 2px);
+    left: calc(50% - 200px / 2);
+    top: 20px
+}
+
+#box3 {
+    position: absolute;
+    width: calc(200px - 2px);
+    height: calc(150px - 2px);
+    right: 40px;
+    top: 20px
+}
+
+#box-container2 {
+    width: calc(1000px - 2px);
+    min-height: calc(100px - 2px);
+    margin-top: calc(7% - 100px / 2);
+    position: relative;
+}
+
+#box4 {
+    position: absolute;
+    width: calc(200px - 2px);
+    min-height: calc(50px - 2px);
+    top: 20px;
+    left: 40px;
+}
+
+#box5 {
+    position: absolute;
+    width: calc(200px - 2px);
+    min-height: calc(50px - 2px);
+    top: 20px;
+    left: 280px;
+}
+
+#box6 {
+    position: absolute;
+    width: calc(200px - 2px);
+    min-height: calc(50px - 2px);
+    top: 20px;
+    left: 520px;
+}
+
+#box7 {
+    position: absolute;
+    width: calc(200px - 2px);
+    min-height: calc(50px - 2px);
+    top: 20px;
+    left: 760px;
+}
+
+footer {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+}
+
+#box8 {
+    position: absolute;
+    width: calc(450px - 2px);
+    min-height: calc(250px - 2px);
+    top: 25px;
+    left: 15px;
+}
+
+#box9 {
+    position: absolute;
+    width: calc(450px - 2px);
+    min-height: calc(250px - 2px);
+    top: 25px;
+    right: 15px;
+}
